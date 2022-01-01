@@ -18,7 +18,9 @@
         "images": [
           "KARGOLogo.png", "KARGOpage1.png", "KARGOpage2.png", "KARGOpage3.png", "KARGOpage4.png", "KARGOpage5.png"
         ],
-        "url": "youtube.com/watch?v=1LDFpX4367o",
+        "videos": [
+          "KARGOvid.mp4" 
+        ],
         "technologies": [
           {
             "class": "devicon-react-plain",
