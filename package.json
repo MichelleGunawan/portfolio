@@ -1,6 +1,6 @@
 {
-  "name": "Michelle-Gunawan-portfolio",
-  "homepage": "https://MichelleGunawan.github.io/Michelle-Gunawan-portfolio/",
+  "name": "portfolio",
+  "homepage": "https://michellegunawan.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
