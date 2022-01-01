@@ -1,0 +1,163 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "I'm Michelle Gunawan, a Computer Science and Business Economic student at UCLA with a passion for creating, exploring, and strategizing. I am always chasing after opportunities that will push me out of my comfort zone and teach me new things✨. This desire to create and learn is what fuels my motivation for these projects. I hope you can see these passions shine through in my work💛.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "KARGO",
+        "startDate": "2021",
+        "description": "A personal project, KARGO was one of the most expanded application I had opportunity to work with. I've learned many technologies and solidified my skills in technoligies in which I had prior knowledge. The KARGO app allows people to get anything delivered no matter how big or small. The app allows users to see nearby KARGO kars and place KARGO delivery orders. Additionally, the app implements the Stripe payment API to allow users to pay for their orders.",
+        "type": "mobile",
+        "images": [
+          "KARGOLogo.png", "KARGOpage1.png", "KARGOpage2.png", "KARGOpage3.png", "KARGOpage4.png", "KARGOpage5.png"
+        ],
+        "url": "youtube.com/watch?v=1LDFpX4367o",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactNative"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-google-plain",
+            "name": "Cloud APIs"
+          }
+        ]
+      },
+      {
+        "title": "KARGO Driver",
+        "startDate": "2021",
+        "description": "A personal project, the KARGO driver app was aprojects that gave me the most insigt into AWS technology and how realtime connections between apps worked. The app allows KARGO drivers to recieve and accept delivery requests, and assists them with their navigation to the pickup and dropoff points.",
+        "type": "mobile",
+        "images": [
+          "KARGOdriverLogo.png"
+        ],
+        "videos": [
+          "KARGOdrivervid.mp4" 
+        ],
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactNative"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-google-plain",
+            "name": "Cloud APIs"
+          }
+        ]
+      },
+      {
+        "title": "IBSA Website",
+        "startDate": "2020",
+        "description": "The IBSA Website is a website created for the Indonesian Bruin Association at UCLA in order to create an easy and efficient method for the club to communicate with it's 200+ members. was one of the first websites where I was able to take on the Front-end development role. It was a project in which I worked with a team and had to fulfill the request of the customer and deliver a satisfactory project. Through this project, I got to not only further my reactJS skills but was also able to learn about the development process and how to deliver a product to a customer.",
+        "type": "web",
+        "images": [
+          "ibsaLogo.png"
+        ],
+        "videos":["IBSAWeb.mp4"],
+        "url": "https://www.bruinsibsa.com/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "Discoveroo",
+        "startDate": "2019",
+        "description": " In order to learn about front-end development, I decided to buid a website from scratch. With the basics of reactJS and bootstrap, I was able to build Discoveroo a platform to find tutors, babysitters, cleaners, and other household help. Through this project I was also able to gain exposure to design. The idea initially begin as an app, and my first step was to create a figma prototype of the app which I then used to base the website off of. When I eventually switched to developing a website. I used adobe photoshop and aftereffects to create the designs on the login page and the logo.",
+        "type": "web",
+        "images": [
+          "Discoveroo/DiscoverooLogo.png","Discoveroo/DiscoverooSignInPage.png", "Discoveroo/DiscoverooProfile.png", "Discoveroo/DiscoverooDiscoverPage.png"
+        ],
+        "videos":["Discoveroo.mp4"],
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-photoshop-plain",
+            "name": "Photoshop"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Tokopedia",
+        "title": "Front-End Intern",
+        "years": "07.2021 - present",
+        "icon": "fab fa-react experience-icon",
+        "mainTech": [
+          "React"
+        ],
+        "technologies": [
+          "ReactJS",
+          "NodeJS",
+          "JavaScript",
+          "HTML5",
+          "CSS3",
+          "AntDesign",
+          "Typescript"
+        ]
+      },
+      {
+        "company": "KARGO",
+        "title": "Fullstack Developer",
+        "years": "01.2021 - present",
+        "icon": "fab fa-react experience-icon",
+        "mainTech": [
+          "React"
+        ],
+        "technologies": [
+          "ReactNative",
+          "ReactJS",
+          "NodeJS",
+          "JavaScript",
+          "HTML5",
+          "CSS3",
+          "Bootstrap"
+        ]
+      }
+    ]
+  }
