@@ -1,0 +1,58 @@
+{
+  "basic_info": {
+    "name": "Michelle Gunawan",
+    "titles": [ "Front-end Developer", "Tech Enthusiast", "Mobile App Developer" ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/MichelleGunawan",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/michelle-gunawan/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "email",
+        "url": "mailto:mfgunawan01@gmail.com",
+        "class": "far fa-envelope"
+      }
+    ],
+    "image": "profile.jpeg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "60"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "C++",
+        "class": "devicon-cplusplus-plain",
+        "level": "65"
+      }
+    ]
+  }
+}
