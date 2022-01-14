@@ -161,5 +161,9 @@
         "Bootstrap"
       ]
     }
-  ]
+  ],
+  "more": [
+    {"title":"CodeHERs",
+      "description":"club",
+      "image":"Discoveroo/DiscoverooLogo.png"}]
 }
