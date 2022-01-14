@@ -8,7 +8,7 @@ import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
     var type;
-    if (this.props.data) {
+    if (this.props.data ) {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images?.splice(1);
       const videos = this.props.data.videos;
@@ -49,6 +49,8 @@ class ProjectDetailsModal extends Component {
       }
     }
     return (
+      <div>
+      {this.props.data?.title!=="???" &&
       <Modal
         {...this.props}
         size="lg"
@@ -86,6 +88,7 @@ class ProjectDetailsModal extends Component {
               ></span>
             </div>}
             
+            
             <AwesomeSlider
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
@@ -120,7 +123,8 @@ class ProjectDetailsModal extends Component {
             </div>
           </div>
         </div>
-      </Modal>
+      </Modal>}
+      </div>
     );
   }
 }

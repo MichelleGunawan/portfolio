@@ -430,6 +430,90 @@ header h1 {
 	position: relative;
 }
 
+#more {
+	background: #fff;
+	padding-bottom: 5%;
+}
+
+.more .card{
+    display: flex;
+	flex: 1 0 auto;
+    flex-direction: column;
+    height: 100%;
+    background: #ebe7e1;
+    border-radius: 0px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    flex: 1 0 auto;
+	margin: 15px;
+}
+.more .card:hover{
+    background: #e0dace;
+}
+.more .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s ease;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    align-items: stretch;
+}
+.more .card:hover .box{
+    transform: scale(1.05);
+}
+.more .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 0px 0;
+    color: Black;
+}
+.more .card .description{
+    font-size: 18px;
+    // font-weight: 500;
+    margin: 0px 0 7px 0;
+    color: rgb(53, 53, 53);
+}
+.more .card .box img{
+    height: 20em;
+    width: 100%;
+	margin: auto;
+    object-fit: cover;
+    border-radius: 0%;
+    border: 5px solid rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+.more .card:hover img{
+    border-color: #f8eae7;
+}
+
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid #d1a298!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: #d1a298!important;
+}
+
+.owl-carousel .owl-stage{display: flex;}
+
 footer {
 	background: #1F1F1F;
 	min-height: 100px;
@@ -454,4 +538,10 @@ footer a:focus {
 .social-links {
 	margin-top: 50px;
 	font-size: 22px;
+}
+
+.max-width{
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: auto;
 }

@@ -88,8 +88,8 @@ class About extends Component {
                     If you would like to know more about me, checkout my Resume or CV!
                     <br/>
                     <div className="aboutButtons">
-                      <Button className="buttons" href="https://drive.google.com/file/d/1GRg_l3PD77gGowFe9_6WkEyr_ncRluNv/view?usp=sharing">Resume</Button>
-                      <Button className="buttons" href="https://drive.google.com/file/d/1wrNvqR4fvUZ5rlLozSylclMMAl1h-tmt/view?usp=sharing">CV</Button>
+                      <Button className="buttons" href="https://drive.google.com/file/d/1IbKjFE1RAMGUXbEs59--vSVRWp63I6ZG/view?usp=sharing">Resume</Button>
+                      <Button className="buttons" href="https://drive.google.com/file/d/1G-OuxSzTCIQSag-3Ls65PzwAz_0LHE-p/view?usp=sharing">CV</Button>
                     </div>
                   </div>
                 </div>

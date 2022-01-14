@@ -96,6 +96,20 @@ body[data-theme="dark"] {
       }
    }
 
+   #more {
+      background-color: #7f7f7f;
+      h1 span {
+         color: white;
+      }
+      .polaroid span {
+         background:  #6d6d6d;
+      }
+      .card {
+         background: #6d6d6d;
+         color: white;
+      }
+   }
+
    .modal-inside .modal-content {
       background: #5b5b5b;
       color: white;
