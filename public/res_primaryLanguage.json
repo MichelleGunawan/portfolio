@@ -2,11 +2,13 @@
   "basic_info": {
     "description_header": "Hi",
     "description": "I'm Michelle Gunawan, a Computer Science and Business Economic student at UCLA with a passion for creating, exploring, and strategizing. I am always chasing after opportunities that will push me out of my comfort zone and teach me new things✨. This desire to create and learn is what fuels my motivation for these projects. I hope you can see these passions shine through in my work💛.",
+    "description_fun": "Besides that, I have an ardent love for hiking and am fascinated by language and culture.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
       "skills": "Skills",
-      "experience": "Experience"
+      "experience": "Experience",
+      "more": "More About Me"
     }
   },
   "projects": [
@@ -73,7 +75,7 @@
     {
       "title": "IBSA Website",
       "startDate": "2020",
-      "description": "The IBSA Website is a website created for the Indonesian Bruin Association at UCLA in order to create an easy and efficient method for the club to communicate with it's 200+ members. was one of the first websites where I was able to take on the Front-end development role. It was a project in which I worked with a team and had to fulfill the request of the customer and deliver a satisfactory project. Through this project, I got to not only further my reactJS skills but was also able to learn about the development process and how to deliver a product to a customer.",
+      "description": "The IBSA Website is a website created for the Indonesian Bruin Association at UCLA in order to create an easy and efficient method for the club to communicate with it's 150+ members. was one of the first websites where I was able to take on the Front-end development role. It was a project in which I worked with a team and had to fulfill the request of the customer and deliver a satisfactory project. Through this project, I got to not only further my reactJS skills but was also able to learn about the development process and how to deliver a product to a customer.",
       "type": "web",
       "images": [
         "ibsaLogo.png"
@@ -122,6 +124,15 @@
           "name": "Photoshop"
         }
       ]
+    },
+    {
+      "title": "???",
+      "startDate": "???",
+      "images": ["placeholder.png"]
+    },{
+      "title": "???",
+      "startDate": "???",
+      "images": ["placeholder.png"]
     }
   ],
   "experience": [
@@ -162,8 +173,26 @@
       ]
     }
   ],
-  "more": [
-    {"title":"CodeHERs",
-      "description":"club",
-      "image":"Discoveroo/DiscoverooLogo.png"}]
+  "more": [      
+    {
+      "title": "IBSA",
+      "description": "<div class=\"description\">As <b>Finance Officer</b> for the Indonesian Bruin Association (IBSA), managed allocation of finances and came up with cost effective solutions in order to plan events to help build and cultivate UCLA's Indonesian community of over 150 students</div>",
+      "image": "IBSA.png"
+    },
+    {
+      "title": "CodeHERs",
+      "description": "<p class=\"description\"><b>Founded</b> CodeHERs, a program dedicated to creating a safe space for girls to explore and engage in the world of computer science and engineering, with the goal of bridging gender gap in the tech industry</p>",
+      "image": "codeHERs.png"
+    },
+    {
+      "title": "PERMIAS Nasional",
+      "description": "<div class=\"description\">As <b>Tech Officer</b> for PERMIAS Nasional, assisted in the implementation of the best technologies to support the organization's mission of supporting the over 8,000 international Indonesian students going to school in the U.S.</div>",
+      "image": "Permias.png"
+    },
+    {
+      "title": "NHS",
+      "description": "<div class=\"description\">As <b>President</b>, maintained effective communication with community members to organize service events allowing NHS members to contribute not only to the local community but to the international community as well</div>",
+      "image": "Baturetno.png"
+    }
+  ]
 }
