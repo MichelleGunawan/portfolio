@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "I'm Michelle Gunawan, a Computer Science and Business Economic student at UCLA with a passion for creating, exploring, and strategizing. I am always chasing after opportunities that will push me out of my comfort zone and teach me new things✨. This desire to create and learn is what fuels my motivation for these projects. I hope you can see these passions shine through in my work💛.",
+      "description": "I'm Michelle Gunawan, a Computer Science and Business Economic student at UCLA with a passion for creating, exploring, and strategizing. I am always chasing after opportunities that will push me out of my comfort zone and teach me new things✨. I enjoy working on projects - whether I'm on the technical or non-technical side of things - and especially love building for people💛.",
       "description_fun": "Besides that, I have an ardent love for hiking and am fascinated by language and culture.",
       "section_name": {
         "about": "About me",
@@ -137,9 +137,27 @@
     ],
     "experience": [
       {
+        "company": "Hinge",
+        "title": "Product Mangement Intern",
+        "years": "06.2022 - 08.2022",
+        "icon": "fab fa-react experience-icon",
+        "mainTech": [
+          "Product Management"
+        ],
+        "technologies": [
+          "Shortcut",
+          "Looker",
+          "Agile",
+          "Research and analysis",
+          "Product development",
+          "Communication", 
+          "Collaboration"
+        ]
+      },
+      {
         "company": "Tokopedia",
         "title": "Front-End Intern",
-        "years": "07.2021 - present",
+        "years": "07.2021 - 02.2022",
         "icon": "fab fa-react experience-icon",
         "mainTech": [
           "React"
@@ -157,7 +175,7 @@
       {
         "company": "KARGO",
         "title": "Fullstack Developer",
-        "years": "01.2021 - present",
+        "years": "01.2021 - 07,2021",
         "icon": "fab fa-react experience-icon",
         "mainTech": [
           "React"
