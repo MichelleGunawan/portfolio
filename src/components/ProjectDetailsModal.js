@@ -45,7 +45,7 @@ class ProjectDetailsModal extends Component {
           });
         }
         content = [...img, ...vid]
-        console.log(content);
+        //console.log(content);
       }
     }
     return (

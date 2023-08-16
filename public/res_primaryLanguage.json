@@ -1,12 +1,12 @@
 {
   "basic_info": {
-    "description_header": "Hi",
-    "description": "I'm Michelle Gunawan, a Computer Science and Business Economic student at UCLA with a passion for creating, exploring, and strategizing. I am always chasing after opportunities that will push me out of my comfort zone and teach me new things✨. I enjoy working on projects - whether I'm on the technical or non-technical side of things - and especially love building for people💛.",
+    "description_header": "Hey, I'm Michelle",
+    "description": "A tech enthusiast and problem solver with a heart for people, I thrive at the intersection of code and connections. With a strong foundation in programming and a genuine love for understanding user needs, I'm dedicated to crafting meaningful and impactful experiences✨. I enjoy working on projects - whether I'm on the technical or non-technical side of things - and especially love building for humans💛. If you're interested in learning more about me, feel free to explore the rest of my portfolio. For a quick overview, you can also check out my resume or CV below. If you have any questions or would like to get in touch, please don't hesitate to contact me – I'd love to connect!",
     "description_fun": "Besides that, I have an ardent love for hiking and am fascinated by language and culture.",
     "section_name": {
       "about": "About me",
-      "projects": "Projects",
-      "skills": "Skills",
+      "projects": "Latest Projects",
+      "skills": "(Technical) Languages I Speak",
       "experience": "Experience",
       "more": "More About Me"
     }
@@ -147,20 +147,23 @@
       "technologies": [
         "Shortcut",
         "Looker",
-        "Agile Development",
-        "Research and analysis",
-        "Communication"
+        "Agile",
+        "UX Research",
+        "Feature Prioritization",
+        "Communication", 
+        "Collaboration"
       ]
     },
     {
       "company": "Tokopedia",
-      "title": "Front-End Intern",
-      "years": "08.2021 - 02.2022",
+      "title": "Software Engineer Intern",
+      "years": "07.2021 - 02.2022",
       "icon": "fab fa-react experience-icon",
       "mainTech": [
         "React"
       ],
       "technologies": [
+        "Frontend Development",
         "ReactJS",
         "NodeJS",
         "JavaScript",
@@ -168,24 +171,6 @@
         "CSS3",
         "AntDesign",
         "Typescript"
-      ]
-    },
-    {
-      "company": "KARGO",
-      "title": "Fullstack Developer",
-      "years": "01.2021 - present",
-      "icon": "fab fa-react experience-icon",
-      "mainTech": [
-        "React"
-      ],
-      "technologies": [
-        "ReactNative",
-        "ReactJS",
-        "NodeJS",
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "Bootstrap"
       ]
     }
   ],

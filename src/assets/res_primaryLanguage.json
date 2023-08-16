@@ -1,12 +1,12 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "Welcome to my portfolio website! My name is Michelle Gunawan and I am a Computer Science and Business Economics student at UCLA. I am driven by a passion for creating, exploring, and strategizing. I am always seeking opportunities that challenge me to learn and grow✨. I enjoy working on projects - whether I'm on the technical or non-technical side of things - and especially love building for people💛. If you're interested in learning more about me, please take a look at my resume or CV. Thanks for visiting!",
+      "description_header": "Hey, I'm Michelle",
+      "description": "A tech enthusiast and problem solver with a heart for people, I thrive at the intersection of code and connections. With a strong foundation in programming and a genuine love for understanding user needs, I'm dedicated to crafting meaningful and impactful experiences✨. I enjoy working on projects - whether I'm on the technical or non-technical side of things - and especially love building for humans💛. If you're interested in learning more about me, feel free to explore the rest of my portfolio. For a quick overview, you can also check out my resume or CV below. If you have any questions or would like to get in touch, please don't hesitate to contact me – I'd love to connect!",
       "description_fun": "Besides that, I have an ardent love for hiking and am fascinated by language and culture.",
       "section_name": {
         "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
+        "projects": "Latest Projects",
+        "skills": "(Technical) Languages I Speak",
         "experience": "Experience",
         "more": "More About Me"
       }
@@ -156,13 +156,14 @@
       },
       {
         "company": "Tokopedia",
-        "title": "Front-End Intern",
+        "title": "Software Engineer Intern",
         "years": "07.2021 - 02.2022",
         "icon": "fab fa-react experience-icon",
         "mainTech": [
           "React"
         ],
         "technologies": [
+          "Frontend Development",
           "ReactJS",
           "NodeJS",
           "JavaScript",
@@ -170,24 +171,6 @@
           "CSS3",
           "AntDesign",
           "Typescript"
-        ]
-      },
-      {
-        "company": "KARGO",
-        "title": "Fullstack Developer",
-        "years": "01.2021 - 07,2021",
-        "icon": "fab fa-react experience-icon",
-        "mainTech": [
-          "React"
-        ],
-        "technologies": [
-          "ReactNative",
-          "ReactJS",
-          "NodeJS",
-          "JavaScript",
-          "HTML5",
-          "CSS3",
-          "Bootstrap"
         ]
       }
     ],

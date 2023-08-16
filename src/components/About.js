@@ -28,7 +28,8 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="300px"
+                    height="350px"
+                    width="auto"
                     src={profile}
                     alt="Avatar placeholder"
                   />
@@ -79,16 +80,19 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello} </span>
                     <br />
                     <br />
                     {about}
                     <br/>
                     <br/>
                     <div className="aboutButtons">
-                      <Button className="buttons" href="https://drive.google.com/file/d/1IbKjFE1RAMGUXbEs59--vSVRWp63I6ZG/view?usp=sharing">Resume</Button>
+                      <Button className="buttons" href="https://drive.google.com/file/d/1N5yD1cvpJPzr8H9kdIVGctLEAB7FLB44/view?usp=sharing">Resume</Button>
                       <Button className="buttons" href="https://drive.google.com/file/d/1G-OuxSzTCIQSag-3Ls65PzwAz_0LHE-p/view?usp=sharing">CV</Button>
+                      <Button className="buttons" href="mailto:mfgunawan01@gmail.com">Contact</Button>
                     </div>
+
+                    
                   </div>
                 </div>
               </div>

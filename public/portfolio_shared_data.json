@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "name": "Michelle Gunawan",
-    "titles": [ "Product Manager", "Front-end Developer", "Tech Enthusiast", "Mobile App Developer" ],
+    "titles": [ "Tech Enthusiast", "Product Manager", "Fullstack Developer" ],
     "social": [
       {
         "name": "github",
@@ -15,7 +15,7 @@
       },
       {
         "name": "email",
-        "url": "mailto:mfgunawan01@gmail.com",
+        "url": "mailto:mfgunawan01.portfolio@gmail.com",
         "class": "far fa-envelope"
       }
     ],

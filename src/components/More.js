@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProjectDetailsModal from "./ProjectDetailsModal";
+//import ProjectDetailsModal from "./ProjectDetailsModal";
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -18,26 +18,44 @@ class More extends Component {
           this.setState({ detailsModalShow: true, deps: data });
         };
     
-        let detailsModalClose = () => this.setState({ detailsModalShow: false });
-        console.log(this.props)
+        //let detailsModalClose = () => this.setState({ detailsModalShow: false });
         if (this.props.resumeMore && this.props.resumeBasicInfo) {
           var sectionName = this.props.resumeBasicInfo.section_name.more;
           
           var projects = this.props.resumeMore.map(function (projects) {
             return (
-                <div class="card" key={projects.title} onClick={() => detailsModalShow(projects)}>
-                    <div class="box">
-                        <img  
-                        src={require(`../assets/images/${projects.image}`)}
-                        alt=""/>
-                        <div className="text">{projects.title}</div>
-                        <div dangerouslySetInnerHTML={{__html:projects.description}}></div>
+            <div>
+              <span>
+                <div className="foto">
+                  <div>
+                    <img
+                      src={require(`../assets/images/${projects.image}`)}
+                      alt=""
+                      height="250px"
+                      width="150px"
+                      style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    />
+                    <div className="overlay-text">
+                      {projects.title}
                     </div>
+                    <p className="project-title-settings mt-3">
+                      {projects.title}
+                    </p>
+                  </div>
                 </div>
+              </span>
+            </div>
+                // <div class="card" key={projects.title} onClick={() => detailsModalShow(projects)}>
+                //     <div class="box">
+                //         <img  
+                //         src={require(`../assets/images/${projects.image}`)}
+                //         alt=""/>
+                //         {/* <div className="text">{projects.title}</div>
+                //         <div dangerouslySetInnerHTML={{__html:projects.description}}></div> */}
+                //     </div>
+                // </div>
             );
           });
-
-          console.log(projects)
         }
     
         return (

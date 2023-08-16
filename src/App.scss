@@ -27,6 +27,8 @@ html {
 .header-icon {
 	height: 150px;
 	width: 150px;
+	color: #3C342C;
+    opacity: 0.8;
 }
 
 header {
@@ -201,7 +203,7 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 250px;
+	// max-width: 250px;
 }
 
 .polaroid span {
@@ -372,6 +374,9 @@ header h1 {
 #portfolio {
 	background: #e0dace;
 	padding-bottom: 5%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
 }
 
 .portfolio-item {
@@ -419,7 +424,17 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	color: #000;
+	text-align: center;
+}
+
+.section-caption {
+	padding-top: 10px;
+	padding-bottom: 5%;
+	font: 10px/16px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #d1a298;
 	text-align: center;
 }
 
@@ -442,7 +457,7 @@ header h1 {
     height: 100%;
     background: #ebe7e1;
     border-radius: 0px;
-    padding: 25px 35px;
+    //padding: 25px 35px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -483,12 +498,31 @@ header h1 {
 	margin: auto;
     object-fit: cover;
     border-radius: 0%;
-    border: 5px solid rgb(255, 255, 255);
     transition: all 0.3s ease;
 }
 .more .card:hover img{
     border-color: #f8eae7;
 }
+
+.more .foto .overlay-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+	color: black;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+  }
+  
+  .more .foto:hover img{
+	opacity: 0.8;
+	filter: blur(2px);
+  }
 
 .owl-dots{
     text-align: center;

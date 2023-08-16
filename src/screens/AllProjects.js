@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import ProjectDetailsModal from "./ProjectDetailsModal";
+import ProjectDetailsModal from "../components/ProjectDetailsModal";
 import { Link } from "react-router-dom";
 
-
-class Projects extends Component {
+class AllProjects extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -20,7 +19,7 @@ class Projects extends Component {
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.slice(0,3).map(function (projects) {
+      var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-4"
@@ -51,17 +50,19 @@ class Projects extends Component {
     }
 
     return (
-      <section id="portfolio">
+      <section id="portfolio">        
         <div className="col-md-12">
-          <h1 className="section-title" style={{paddingBottom: 0}}>
+          <div style={{width: "100%", height: "auto", top:0, display: 'flex', justifyContent:'flex-end', alignItems:'center', paddingRight: "20px", paddingTop: "20px"}}>
+            <Link to="/portfolio">
+              <h2 className="section-title">
+                <span>Home</span>
+              </h2>
+            </Link>
+          </div>
+          <hr/>
+          <h1 className="section-title" style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>
-          <Link to="/portfolio/projects">
-            <h2 className="section-caption">
-              <span>See More</span>
-            </h2>
-          </Link>            
-          
           <div className="col-md-12 mx-auto">
             <div className="row mx-auto">{projects}</div>
           </div>
@@ -69,11 +70,11 @@ class Projects extends Component {
             show={this.state.detailsModalShow}
             onHide={detailsModalClose}
             data={this.state.deps}
-          />          
-        </div>        
+          />
+        </div>
       </section>
     );
   }
 }
 
-export default Projects;
+export default AllProjects;
