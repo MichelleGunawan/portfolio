@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90d3e1ef4863e20566bbcb99914c123a",
+    "revision": "b2ba892ba48b03256f6053db7239ea80",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "2b6dc83090f30662c3ce",
+    "revision": "0548b577341d5cbf1a6a",
     "url": "/portfolio/static/css/2.1eb91598.chunk.css"
   },
   {
-    "revision": "6946cc0d8b1ad97fcd45",
-    "url": "/portfolio/static/css/main.6b15140c.chunk.css"
+    "revision": "655375c19b09ca3d78fd",
+    "url": "/portfolio/static/css/main.677b99d8.chunk.css"
   },
   {
-    "revision": "2b6dc83090f30662c3ce",
-    "url": "/portfolio/static/js/2.376b5817.chunk.js"
+    "revision": "0548b577341d5cbf1a6a",
+    "url": "/portfolio/static/js/2.aa745643.chunk.js"
   },
   {
     "revision": "7db3d63826318f1d93749fde5931ca87",
-    "url": "/portfolio/static/js/2.376b5817.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.aa745643.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6946cc0d8b1ad97fcd45",
-    "url": "/portfolio/static/js/main.9649999f.chunk.js"
+    "revision": "655375c19b09ca3d78fd",
+    "url": "/portfolio/static/js/main.a4f777a0.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
   },
   {
-    "revision": "bcdca24b09437896a38ec5595a915eb0",
-    "url": "/portfolio/static/media/Baturetno.bcdca24b.png"
+    "revision": "38926eec4c45985458894c483566559a",
+    "url": "/portfolio/static/media/Baturetno.38926eec.png"
   },
   {
     "revision": "6634230459ea86ef62c9fe1ee0a409a3",
@@ -96,8 +96,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/KARGOvid.23179d17.mp4"
   },
   {
+    "revision": "3bb57d962eb364aa2aff9754ade86067",
+    "url": "/portfolio/static/media/MG.3bb57d96.png"
+  },
+  {
     "revision": "8a5346a5df18fb33ac27043ccb61e1ef",
     "url": "/portfolio/static/media/Permias.8a5346a5.png"
+  },
+  {
+    "revision": "28da1985ab53159dc6ef63486db6c4b6",
+    "url": "/portfolio/static/media/baturetno.28da1985.jpg"
   },
   {
     "revision": "2482e7b4c4319805bd49687ab67c91e5",
@@ -108,8 +116,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/codeHERs.9955db23.jpg"
   },
   {
+    "revision": "94a55b1c9b3ea5117188decf3dacb9cd",
+    "url": "/portfolio/static/media/grad-horizontal.94a55b1c.jpg"
+  },
+  {
     "revision": "d080fd28c22639413ca05dbe00e966a5",
     "url": "/portfolio/static/media/grad.d080fd28.jpg"
+  },
+  {
+    "revision": "6175671056624ebd0377c35cd8cb68db",
+    "url": "/portfolio/static/media/hike.61756710.JPG"
   },
   {
     "revision": "5f7d635e0ac7e453ddc97ee2efd8cc55",
