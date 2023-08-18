@@ -7,6 +7,7 @@ import sharedData from './assets/portfolio_shared_data.json';
 import Footer from "./components/Footer";
 import Home from "./screens/Home";
 import AllProjects from "./screens/AllProjects";
+import Community from "./screens/More/Community";
 
 class App extends Component {
 
@@ -27,6 +28,10 @@ class App extends Component {
         <Routes>
           <Route path="/portfolio" element={<Home />} />
           <Route path="/portfolio/projects" element={<AllProjects
+              resumeProjects={this.state.resumeData.projects}
+              resumeBasicInfo={this.state.resumeData.basic_info}
+            />} />
+            <Route path="/portfolio/community" element={<Community
               resumeProjects={this.state.resumeData.projects}
               resumeBasicInfo={this.state.resumeData.basic_info}
             />} />

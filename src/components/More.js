@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 //import ProjectDetailsModal from "./ProjectDetailsModal";
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -24,26 +25,24 @@ class More extends Component {
           
           var projects = this.props.resumeMore.map(function (projects) {
             return (
-            <div>
-              <span>
+            <div style={{padding: 10}}>
                 <div className="foto">
-                  <div>
-                    <img
-                      src={require(`../assets/images/${projects.image}`)}
-                      alt=""
-                      height="250px"
-                      width="150px"
-                      style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-                    />
-                    <div className="overlay-text">
-                      {projects.title}
+                  {/* <Link to={`/portfolio/${projects.link}`}> */}
+                    <div className="outline">
+                      <img
+                        src={require(`../assets/images/${projects.image}`)}
+                        alt=""
+                        style={{marginBottom: 0, paddingBottom: 0, position: 'relative', height: 250, width: 380}}
+                      />
+                      <div className="overlay-text">
+                        <p style={{fontSize:12}}>{projects.description}</p>
+                      </div>
+                      <p className="project-title-settings mt-3">
+                        {projects.title}
+                      </p>
                     </div>
-                    <p className="project-title-settings mt-3">
-                      {projects.title}
-                    </p>
-                  </div>
+                  {/* </Link>                   */}
                 </div>
-              </span>
             </div>
                 // <div class="card" key={projects.title} onClick={() => detailsModalShow(projects)}>
                 //     <div class="box">

@@ -43,10 +43,10 @@ class Home extends Component {
               resumeExperience={this.state.resumeData.experience}
               resumeBasicInfo={this.state.resumeData.basic_info}
             />
-            {/* <More
+            <More
               resumeMore={this.state.resumeData.more}
               resumeBasicInfo={this.state.resumeData.basic_info}
-            /> */}
+            />
           </div>
         );
       }

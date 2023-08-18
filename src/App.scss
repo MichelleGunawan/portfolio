@@ -164,11 +164,7 @@ header h1 {
 	padding: 10px 10px 5px;
 	text-align: center;
 	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-webkit-transition: all .20s linear;
-	-moz-transition: all .20s linear;
 	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
@@ -183,12 +179,8 @@ header h1 {
 }
 
 .foto div:hover {
-	-webkit-transform: scale(1.01);
-	-moz-transform: scale(1.01);
 	transform: scale(1.01);
 	z-index: 10;
-	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-	-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 	box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 }
 
@@ -213,11 +205,7 @@ header h1 {
 	padding: 15px 15px 40px;
 	text-align: center;
 	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-webkit-transition: all .20s linear;
-	-moz-transition: all .20s linear;
 	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
@@ -450,23 +438,6 @@ header h1 {
 	padding-bottom: 5%;
 }
 
-.more .card{
-    display: flex;
-	flex: 1 0 auto;
-    flex-direction: column;
-    height: 100%;
-    background: #ebe7e1;
-    border-radius: 0px;
-    //padding: 25px 35px;
-    text-align: center;
-    overflow: hidden;
-    transition: all 0.3s ease;
-    flex: 1 0 auto;
-	margin: 15px;
-}
-.more .card:hover{
-    background: #e0dace;
-}
 .more .carousel .card .box{
     display: flex;
     flex-direction: column;
@@ -477,52 +448,71 @@ header h1 {
     overflow: hidden;
     align-items: stretch;
 }
-.more .card:hover .box{
-    transform: scale(1.05);
-}
-.more .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 0px 0;
-    color: Black;
-}
-.more .card .description{
-    font-size: 18px;
-    // font-weight: 500;
-    margin: 0px 0 7px 0;
-    color: rgb(53, 53, 53);
-}
-.more .card .box img{
-    height: 20em;
-    width: 100%;
-	margin: auto;
-    object-fit: cover;
-    border-radius: 0%;
-    transition: all 0.3s ease;
-}
-.more .card:hover img{
-    border-color: #f8eae7;
-}
 
 .more .foto .overlay-text {
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	top: 10px;
+	left: 10px;
+	width: 380px;
+	height: 250px;
+	padding: 15px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+	background-color: rgba(0, 0, 0, 0.3); /* Adjust the background color and opacity as needed */
 	color: black;
 	opacity: 0;
 	transition: opacity 0.3s ease;
   }
+
+  .more .foto:hover .overlay-text{
+	width: 380px;
+	height: 250px;
+	align-self: center;
+	opacity: 1;
+	color: #ffffff;
+	transform: scale(1);
+  }
+
   
   .more .foto:hover img{
 	opacity: 0.8;
 	filter: blur(2px);
   }
+
+  .more .foto .outline {
+	background: #ffffff;
+	display: inline-block;
+	margin: 0 auto 5% auto;
+	padding: 10px 10px 5px;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	transition: all .20s linear;
+	z-index: 0;
+	position: relative;
+}
+
+.more .foto .outline:after {
+	color: #333;
+	font-size: 25px;
+	content: attr(title);
+	position: relative;
+	top: 15px;
+}
+
+.more .foto .outline:hover {
+	transform: scale(1.01);
+	z-index: 10;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
+
+.more .foto div{
+	box-shadow: none;
+}
+.more .foto div:hover{
+	box-shadow: none;
+}
 
 .owl-dots{
     text-align: center;

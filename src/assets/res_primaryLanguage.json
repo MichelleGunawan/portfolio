@@ -174,26 +174,37 @@
         ]
       }
     ],
-    "more": [      
-      {
-        "title": "IBSA",
-        "description": "<div class=\"description\">As <b>Finance Officer</b> for the Indonesian Bruin Association (IBSA), managed allocation of finances and came up with cost effective solutions in order to plan events to help build and cultivate UCLA's Indonesian community of over 150 students</div>",
-        "image": "IBSA.png"
-      },
+    "more": [   
       {
         "title": "CodeHERs",
-        "description": "<p class=\"description\"><b>Founded</b> CodeHERs, a program dedicated to creating a safe space for girls to explore and engage in the world of computer science and engineering, with the goal of bridging gender gap in the tech industry</p>",
-        "image": "codeHERs.png"
+        "description": "Passionate about bridging the gender gap in tech, I founded CodeHERs—a small effort with big dreams—to provide a supportive and empowering space for girls to explore the world of tech. Together, we're stitching up the gender gap, thread by thread.",
+        "image": "codeHERs.png",
+        "link": "community"
+      }, 
+      {
+        "title": "Baturetno",
+        "description": "Through engagement with the local community of Baturetno, Indonesia, I actively participated in initiatives that provided tangible support, offering me firsthand insight into the challenges faced by underdeveloped communities. This awareness of global disparities has always fueled my dedication to fostering positive change.",
+        "image": "baturetno.jpg",
+        "link": "community"
       },
       {
-        "title": "PERMIAS Nasional",
-        "description": "<div class=\"description\">As <b>Tech Officer</b> for PERMIAS Nasional, assisted in the implementation of the best technologies to support the organization's mission of supporting the over 8,000 international Indonesian students going to school in the U.S.</div>",
-        "image": "Permias.png"
+        "title": "Proud Bruin",
+        "description": "Double majored in Computer Science and Business Economics at UCLA. From coding to crunching numbers, I got the best of both worlds under the sunny skies of LA. Go Bruins!",
+        "image": "grad-horizontal.jpg",
+        "link": "community"
+      },
+      
+      {
+        "title": "Outdoor Addict",
+        "description": "When I'm not behind a screen, you'll most likely find me out and about, soaking in the great outdoors. In my opinion, there's no better way to hit the reset button than by walking up and down a really big hill :)",
+        "image": "hike.JPG",
+        "link": "community"
       },
       {
-        "title": "NHS",
-        "description": "<div class=\"description\">As <b>President</b>, maintained effective communication with community members to organize service events allowing NHS members to contribute not only to the local community but to the international community as well</div>",
-        "image": "Baturetno.png"
+        "title": "IBSA",
+        "description": "I managed allocation of finances and came up with cost effective solutions as Finance Officer for UCLA's Indonesian Bruin Student Association (IBSA) in order to plan events to help build and cultivate UCLA's Indonesian community of over 150 students.",
+        "image": "IBSA.png",
+        "link": "community"
       }
     ]
   }
