@@ -9,9 +9,37 @@ class More extends Component {
     constructor(props) {
         super(props);
         this.state = {
+          numItems: this.getNumItems(window.innerWidth), // Set initial number of items
           deps: {},
           detailsModalShow: false,
         };
+      }
+    
+      componentDidMount() {
+        // Add event listener to handle window resize
+        window.addEventListener("resize", this.handleWindowResize);
+      }
+    
+      componentWillUnmount() {
+        // Remove event listener when component is unmounted
+        window.removeEventListener("resize", this.handleWindowResize);
+      }
+    
+      handleWindowResize = () => {
+        // Update number of items based on window width
+        this.setState({
+          numItems: this.getNumItems(window.innerWidth),
+        });
+      };
+
+      getNumItems(windowWidth) {
+        if (windowWidth < 850) {
+          return 1;
+        } else if (windowWidth < 1200) {
+          return 2;
+        } else{
+          return 3;
+        }
       }
     
     render() {
@@ -64,7 +92,7 @@ class More extends Component {
                 <span>{sectionName}</span>
               </h1>
               <OwlCarousel
-                items = "3"
+                items={this.state.numItems} // Use the updated number of items
                 autoplay
                 loop
                 lazyLoad
