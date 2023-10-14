@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08c3eb084169f0879accfffc2b30f191",
+    "revision": "6b0e9524cdc3c4f6d763a4b7e698793e",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "0548b577341d5cbf1a6a",
+    "revision": "45ea0111240e97f2f4f4",
     "url": "/portfolio/static/css/2.1eb91598.chunk.css"
   },
   {
-    "revision": "a531cec764b066db5033",
-    "url": "/portfolio/static/css/main.677b99d8.chunk.css"
+    "revision": "4996ad008d3cf46f13f0",
+    "url": "/portfolio/static/css/main.1d8a96b4.chunk.css"
   },
   {
-    "revision": "0548b577341d5cbf1a6a",
-    "url": "/portfolio/static/js/2.aa745643.chunk.js"
+    "revision": "45ea0111240e97f2f4f4",
+    "url": "/portfolio/static/js/2.ed8ccfa8.chunk.js"
   },
   {
-    "revision": "7db3d63826318f1d93749fde5931ca87",
-    "url": "/portfolio/static/js/2.aa745643.chunk.js.LICENSE.txt"
+    "revision": "dc0f43732a24e2a8004b6f32530b76c5",
+    "url": "/portfolio/static/js/2.ed8ccfa8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a531cec764b066db5033",
-    "url": "/portfolio/static/js/main.8d95cc4e.chunk.js"
+    "revision": "4996ad008d3cf46f13f0",
+    "url": "/portfolio/static/js/main.53efac02.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -102,6 +102,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8a5346a5df18fb33ac27043ccb61e1ef",
     "url": "/portfolio/static/media/Permias.8a5346a5.png"
+  },
+  {
+    "revision": "040953303b165e179f616037483a9a58",
+    "url": "/portfolio/static/media/Reco1.04095330.png"
+  },
+  {
+    "revision": "78c750306d251cbc928a9c9f201e151b",
+    "url": "/portfolio/static/media/Reco2.78c75030.png"
+  },
+  {
+    "revision": "7230b6146e5b4cece7ac7666aa0172d8",
+    "url": "/portfolio/static/media/Reco3.7230b614.png"
+  },
+  {
+    "revision": "cabfaed0d1990a01d41d6aefacddd7c0",
+    "url": "/portfolio/static/media/Reco4.cabfaed0.png"
+  },
+  {
+    "revision": "9e65ae4c0fe1f117f61b0a47d7fe3347",
+    "url": "/portfolio/static/media/RecoLogo.9e65ae4c.png"
   },
   {
     "revision": "28da1985ab53159dc6ef63486db6c4b6",
