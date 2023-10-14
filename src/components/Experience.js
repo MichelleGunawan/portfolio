@@ -36,8 +36,11 @@ class Experience extends Component {
               background: "#d1a298",
               color: "#fff",
               textAlign: "center",
+              display: "flex", // Center horizontally and vertically
+              alignItems: "center", // Center vertically
+              justifyContent: "center", // Center horizontally
             }}
-            icon={<i className={work.icon}></i>}
+            icon={<i className={work.icon} style={{fontSize: "2vw"}}></i>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>

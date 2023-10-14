@@ -2,7 +2,6 @@
     "basic_info": {
       "description_header": "Hey, I'm Michelle",
       "description": "A tech enthusiast and problem solver with a heart for people, I thrive at the intersection of code and connections. With a strong foundation in programming and a genuine love for understanding user needs, I'm dedicated to crafting meaningful and impactful experiences✨. I enjoy working on projects - whether I'm on the technical or non-technical side of things - and especially love building for humans💛. If you're interested in learning more about me, feel free to explore the rest of my portfolio. For a quick overview, you can also check out my resume or CV below. If you have any questions or would like to get in touch, please don't hesitate to contact me – I'd love to connect!",
-      "description_fun": "Besides that, I have an ardent love for hiking and am fascinated by language and culture.",
       "section_name": {
         "about": "About me",
         "projects": "Latest Projects",
@@ -12,6 +11,32 @@
       }
     },
     "projects": [
+          {
+      "title": "ReCollect",
+      "startDate": "2023",
+      "description": "With dozens of social media apps, it can be a difficult and boring task to collect and organize all of your media in the same place for easy sharing. ReCollect streamlines this process by offering an accessible platform to house and sort media from other platforms in a familiar social media environment that encourages frequent inter-user media sharing with a proper citation system.",
+      "type": "mobile",
+      "images": [
+        "RecoLogo.png","Reco1.png", "Reco2.png", "Reco3.png", "Reco4.png"
+      ],
+      "videos": [
+      ],
+      "url": "https://recollectteam.github.io/web/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "ReactNative"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        }
+      ]
+    },
       {
         "title": "KARGO",
         "startDate": "2021",
@@ -129,10 +154,6 @@
         "title": "???",
         "startDate": "???",
         "images": ["placeholder.png"]
-      },{
-        "title": "???",
-        "startDate": "???",
-        "images": ["placeholder.png"]
       }
     ],
     "experience": [
@@ -140,7 +161,7 @@
         "company": "Hinge",
         "title": "Product Mangement Intern",
         "years": "06.2022 - 08.2022",
-        "icon": "fab fa-react experience-icon",
+        "icon": "devicon-trello-plain",
         "mainTech": [
           "Product Management"
         ],
@@ -150,27 +171,37 @@
           "Agile",
           "UX Research",
           "Feature Prioritization",
-          "Communication", 
-          "Collaboration"
+          "Cross Functional Collaboration"
         ]
       },
       {
         "company": "Tokopedia",
         "title": "Software Engineer Intern",
         "years": "07.2021 - 02.2022",
-        "icon": "fab fa-react experience-icon",
+        "icon": "devicon-react-plain",
         "mainTech": [
-          "React"
+          "Frontend Development"
         ],
         "technologies": [
-          "Frontend Development",
           "ReactJS",
           "NodeJS",
           "JavaScript",
           "HTML5",
           "CSS3",
-          "AntDesign",
           "Typescript"
+        ]
+      },
+      {
+        "company": "UCLA",
+        "title": "Bachelor's Degree",
+        "years": "2019 - 2023",
+        "icon": "fa fa-graduation-cap",
+        "mainTech": [
+          "Education"
+        ],
+        "technologies": [
+          "Computer Science B.S.",
+          "Business Economics B.A."
         ]
       }
     ],

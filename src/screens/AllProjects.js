@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "../components/ProjectDetailsModal";
 import { Link } from "react-router-dom";
+import Navbar from "../components/NavBar";
 
 class AllProjects extends Component {
   constructor(props) {
@@ -51,17 +52,18 @@ class AllProjects extends Component {
 
     return (
       <section id="portfolio">        
-        <div className="col-md-12">
-          <div style={{width: "100%", height: "auto", top:0, display: 'flex', justifyContent:'flex-end', alignItems:'center', paddingRight: "20px", paddingTop: "20px"}}>
+        <div className="col-md-12" style={{paddingRight:0, paddingLeft:0}}>
+          {/* <div style={{width: "100%", height: "auto", top:0, display: 'flex', justifyContent:'flex-end', alignItems:'center', paddingRight: "20px", paddingTop: "20px"}}>
             <Link to="/portfolio">
               <h2 className="section-title">
                 <span>Home</span>
               </h2>
             </Link>
           </div>
-          <hr/>
+          <hr/> */}
+          <Navbar/>
           <h1 className="section-title" style={{ color: "black" }}>
-            <span>{sectionName}</span>
+            <span>PROJECTS</span>
           </h1>
           <div className="col-md-12 mx-auto">
             <div className="row mx-auto">{projects}</div>

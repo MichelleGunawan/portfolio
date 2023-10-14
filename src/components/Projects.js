@@ -1,79 +1,95 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
-class Projects extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      deps: {},
-      detailsModalShow: false,
-    };
+function Projects(props) {
+  const navigate = useNavigate();
+
+  const handleSeeMoreClick = () => {
+    navigate('/portfolio/projects'); // Navigate to the desired page
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  };
+
+  const [deps, setDeps] = useState({});
+  const [detailsModalShow, setDetailsModalShow] = useState(false);
+
+  const detailsModalShowFn = (data) => {
+    setDetailsModalShow(true);
+    setDeps(data);
+  };
+
+  const detailsModalClose = () => setDetailsModalShow(false);
+
+  let projects = [];
+  if (props.resumeProjects && props.resumeBasicInfo) {
+    var sectionName = props.resumeBasicInfo.section_name.projects;
+    projects = props.resumeProjects.slice(0, 3).map(function (project) {
+      return (
+        <div
+          className="col-sm-12 col-md-6 col-lg-4"
+          key={project.title}
+          style={{ cursor: "pointer" }}
+        >
+          <span className="portfolio-item d-block">
+            <div className="foto" onClick={() => detailsModalShowFn(project)}>
+              <div>
+                <img
+                  src={require(`../assets/images/${project.images[0]}`)}
+                  alt="projectImages"
+                  height="300px"
+                  width="300px"
+                  style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
+                />
+                <span className="project-date">{project.startDate}</span>
+                <br />
+                <p className="project-title-settings mt-3">
+                  {project.title}
+                </p>
+              </div>
+            </div>
+          </span>
+        </div>
+      );
+    });
   }
 
-  render() {
-    let detailsModalShow = (data) => {
-      this.setState({ detailsModalShow: true, deps: data });
-    };
-
-    let detailsModalClose = () => this.setState({ detailsModalShow: false });
-    if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.slice(0,3).map(function (projects) {
-        return (
-          <div
-            className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
-            style={{ cursor: "pointer" }}
-          >
-            <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <img
-                    src={require(`../assets/images/${projects.images[0]}`)}
-                    alt="projectImages"
-                    height="250px"
-                    width="250px"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-                  />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
-                </div>
-              </div>
-            </span>
-          </div>
-        );
-      });
-    }
 
     return (
-      <section id="portfolio">
-        <div className="col-md-12">
-          <h1 className="section-title" style={{paddingBottom: 0}}>
-            <span>{sectionName}</span>
-          </h1>
-          <Link to="/portfolio/projects">
-            <h2 className="section-caption">
-              <span>See More</span>
-            </h2>
-          </Link>            
-          
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
-          </div>
-          <ProjectDetailsModal
-            show={this.state.detailsModalShow}
-            onHide={detailsModalClose}
-            data={this.state.deps}
-          />          
-        </div>        
-      </section>
+    <section id="portfolio">
+      <div className="col-md-12">
+        <h1 className="section-title" style={{ paddingBottom: 0 }}>
+          <span>{sectionName}</span>
+        </h1>
+          <h2 className="section-caption"
+            style={{
+              cursor: 'pointer', // Change the cursor to a pointer on hover
+              textDecoration: 'underline', // Underline the text on hover
+              transition: 'font-size 0.4s', // Add a font-size transition
+            }}
+            onClick={handleSeeMoreClick}
+          >
+            <span
+              onMouseEnter={(e) => { e.target.style.fontSize = '1.15em'; }} // Increase font-size on hover
+              onMouseLeave={(e) => { e.target.style.fontSize = '1.1em'; }} // Reset font-size on hover exit
+            >
+              See More
+            </span>
+          </h2>
+
+        <div className="col-md-12 mx-auto">
+          <div className="row mx-auto">{projects}</div>
+        </div>
+        <ProjectDetailsModal
+          show={detailsModalShow}
+          onHide={detailsModalClose}
+          data={deps}
+        />
+      </div>
+    </section>
     );
-  }
+  
 }
 
 export default Projects;
