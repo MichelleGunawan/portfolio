@@ -1,27 +1,27 @@
 {
-  "basic_info": {
-    "description_header": "Hey, I'm Michelle",
-    "description": "A tech enthusiast and problem solver with a heart for people, I thrive at the intersection of code and connections. With a strong foundation in programming and a genuine love for understanding user needs, I'm dedicated to crafting meaningful and impactful experiences✨. I enjoy working on projects - whether I'm on the technical or non-technical side of things - and especially love building for humans💛. If you're interested in learning more about me, feel free to explore the rest of my portfolio. For a quick overview, you can also check out my resume or CV below. If you have any questions or would like to get in touch, please don't hesitate to contact me – I'd love to connect!",
-    "section_name": {
-      "about": "About me",
-      "projects": "Latest Projects",
-      "skills": "(Technical) Languages I Speak",
-      "experience": "Experience",
-      "more": "More About Me"
-    }
-  },
-  "projects": [
-        {
+    "basic_info": {
+      "description_header": "Hey, I'm Michelle",
+      "description": "A tech enthusiast and problem solver with a heart for people, I thrive at the intersection of code and connections. With a strong foundation in programming and a genuine love for understanding user needs, I'm dedicated to crafting meaningful and impactful experiences✨. I enjoy working on projects - whether I'm on the technical or non-technical side of things - and especially love building for humans💛. If you're interested in learning more about me, feel free to explore the rest of my portfolio. For a quick overview, you can also check out my resume or CV below. If you have any questions or would like to get in touch, please don't hesitate to contact me – I'd love to connect!",
+      "section_name": {
+        "about": "About me",
+        "projects": "Latest Projects",
+        "skills": "(Technical) Languages I Speak",
+        "experience": "Experience",
+        "more": "More About Me"
+      }
+    },
+    "projects": [
+          {
       "title": "ReCollect",
       "startDate": "2023",
       "description": "With dozens of social media apps, it can be a difficult and boring task to collect and organize all of your media in the same place for easy sharing. ReCollect streamlines this process by offering an accessible platform to house and sort media from other platforms in a familiar social media environment that encourages frequent inter-user media sharing with a proper citation system.",
       "type": "mobile",
       "images": [
-        "Reco1.png", "Reco2.png", "Reco3.png", "Reco4.png"
+        "RecoLogo.png","Reco1.png", "Reco2.png", "Reco3.png", "Reco4.png"
       ],
       "videos": [
-        "KARGOvid.mp4" 
       ],
+      "url": "https://recollectteam.github.io/web/",
       "technologies": [
         {
           "class": "devicon-react-plain",
@@ -32,197 +32,210 @@
           "name": "JavaScript"
         },
         {
-          "class": "devicon-amazonwebservices-plain",
-          "name": "AWS"
-        },
-        {
-          "class": "devicon-google-plain",
-          "name": "Cloud APIs"
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
         }
       ]
     },
-    {
-      "title": "KARGO",
-      "startDate": "2021",
-      "description": "A personal project, KARGO was one of the most expanded application I had opportunity to work with. I've learned many technologies and solidified my skills in technoligies in which I had prior knowledge. The KARGO app allows people to get anything delivered no matter how big or small. The app allows users to see nearby KARGO kars and place KARGO delivery orders. Additionally, the app implements the Stripe payment API to allow users to pay for their orders.",
-      "type": "mobile",
-      "images": [
-        "KARGOLogo.png", "KARGOpage1.png", "KARGOpage2.png", "KARGOpage3.png", "KARGOpage4.png", "KARGOpage5.png"
-      ],
-      "videos": [
-        "KARGOvid.mp4" 
-      ],
-      "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "ReactNative"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-amazonwebservices-plain",
-          "name": "AWS"
-        },
-        {
-          "class": "devicon-google-plain",
-          "name": "Cloud APIs"
-        }
-      ]
-    },
-    {
-      "title": "KARGO Driver",
-      "startDate": "2021",
-      "description": "A personal project, the KARGO driver app was aprojects that gave me the most insigt into AWS technology and how realtime connections between apps worked. The app allows KARGO drivers to recieve and accept delivery requests, and assists them with their navigation to the pickup and dropoff points.",
-      "type": "mobile",
-      "images": [
-        "KARGOdriverLogo.png"
-      ],
-      "videos": [
-        "KARGOdrivervid.mp4" 
-      ],
-      "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "ReactNative"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-amazonwebservices-plain",
-          "name": "AWS"
-        },
-        {
-          "class": "devicon-google-plain",
-          "name": "Cloud APIs"
-        }
-      ]
-    },
-    {
-      "title": "IBSA Website",
-      "startDate": "2020",
-      "description": "The IBSA Website is a website created for the Indonesian Bruin Association at UCLA in order to create an easy and efficient method for the club to communicate with it's 150+ members. was one of the first websites where I was able to take on the Front-end development role. It was a project in which I worked with a team and had to fulfill the request of the customer and deliver a satisfactory project. Through this project, I got to not only further my reactJS skills but was also able to learn about the development process and how to deliver a product to a customer.",
-      "type": "web",
-      "images": [
-        "ibsaLogo.png"
-      ],
-      "videos":["IBSAWeb.mp4"],
-      "url": "https://www.bruinsibsa.com/",
-      "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "ReactJS"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-bootstrap-plain",
-          "name": "Bootstrap"
-        }
-      ]
-    },
-    {
-      "title": "Discoveroo",
-      "startDate": "2019",
-      "description": " In order to learn about front-end development, I decided to buid a website from scratch. With the basics of reactJS and bootstrap, I was able to build Discoveroo a platform to find tutors, babysitters, cleaners, and other household help. Through this project I was also able to gain exposure to design. The idea initially begin as an app, and my first step was to create a figma prototype of the app which I then used to base the website off of. When I eventually switched to developing a website. I used adobe photoshop and aftereffects to create the designs on the login page and the logo.",
-      "type": "web",
-      "images": [
-        "Discoveroo/DiscoverooLogo.png","Discoveroo/DiscoverooSignInPage.png", "Discoveroo/DiscoverooProfile.png", "Discoveroo/DiscoverooDiscoverPage.png"
-      ],
-      "videos":["Discoveroo.mp4"],
-      "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "ReactJS"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-bootstrap-plain",
-          "name": "Bootstrap"
-        },
-        {
-          "class": "devicon-photoshop-plain",
-          "name": "Photoshop"
-        }
-      ]
-    },
-    {
-      "title": "???",
-      "startDate": "???",
-      "images": ["placeholder.png"]
-    },{
-      "title": "???",
-      "startDate": "???",
-      "images": ["placeholder.png"]
-    }
-  ],
-  "experience": [
-    {
-      "company": "Hinge",
-      "title": "Product Mangement Intern",
-      "years": "06.2022 - 08.2022",
-      "icon": "fab fa-react experience-icon",
-      "mainTech": [
-        "Product Management"
-      ],
-      "technologies": [
-        "Shortcut",
-        "Looker",
-        "Agile",
-        "UX Research",
-        "Feature Prioritization",
-        "Communication", 
-        "Collaboration"
-      ]
-    },
-    {
-      "company": "Tokopedia",
-      "title": "Software Engineer Intern",
-      "years": "07.2021 - 02.2022",
-      "icon": "fab fa-react experience-icon",
-      "mainTech": [
-        "React"
-      ],
-      "technologies": [
-        "Frontend Development",
-        "ReactJS",
-        "NodeJS",
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "AntDesign",
-        "Typescript"
-      ]
-    }
-  ],
-  "more": [      
-    {
-      "title": "IBSA",
-      "description": "<div class=\"description\">As <b>Finance Officer</b> for the Indonesian Bruin Association (IBSA), managed allocation of finances and came up with cost effective solutions in order to plan events to help build and cultivate UCLA's Indonesian community of over 150 students</div>",
-      "image": "IBSA.png"
-    },
-    {
-      "title": "CodeHERs",
-      "description": "Founded CodeHERs—a small effort with big dreams—to create a safe haven for girls in tech. Together, we're stitching up the gender gap, thread by thread, while keeping our focus not on recognition, but on the impact.",
-      "image": "codeHERs.png"
-    },
-    {
-      "title": "PERMIAS Nasional",
-      "description": "<div class=\"description\">As <b>Tech Officer</b> for PERMIAS Nasional, assisted in the implementation of the best technologies to support the organization's mission of supporting the over 8,000 international Indonesian students going to school in the U.S.</div>",
-      "image": "Permias.png"
-    },
-    {
-      "title": "NHS",
-      "description": "<div class=\"description\">As <b>President</b>, maintained effective communication with community members to organize service events allowing NHS members to contribute not only to the local community but to the international community as well</div>",
-      "image": "Baturetno.png"
-    }
-  ]
-}
+      {
+        "title": "KARGO",
+        "startDate": "2021",
+        "description": "A personal project, KARGO was one of the most expanded application I had opportunity to work with. I've learned many technologies and solidified my skills in technoligies in which I had prior knowledge. The KARGO app allows people to get anything delivered no matter how big or small. The app allows users to see nearby KARGO kars and place KARGO delivery orders. Additionally, the app implements the Stripe payment API to allow users to pay for their orders.",
+        "type": "mobile",
+        "images": [
+          "KARGOLogo.png", "KARGOpage1.png", "KARGOpage2.png", "KARGOpage3.png", "KARGOpage4.png", "KARGOpage5.png"
+        ],
+        "videos": [
+          "KARGOvid.mp4" 
+        ],
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactNative"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-google-plain",
+            "name": "Cloud APIs"
+          }
+        ]
+      },
+      {
+        "title": "KARGO Driver",
+        "startDate": "2021",
+        "description": "A personal project, the KARGO driver app was aprojects that gave me the most insigt into AWS technology and how realtime connections between apps worked. The app allows KARGO drivers to recieve and accept delivery requests, and assists them with their navigation to the pickup and dropoff points.",
+        "type": "mobile",
+        "images": [
+          "KARGOdriverLogo.png"
+        ],
+        "videos": [
+          "KARGOdrivervid.mp4" 
+        ],
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactNative"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-google-plain",
+            "name": "Cloud APIs"
+          }
+        ]
+      },
+      {
+        "title": "IBSA Website",
+        "startDate": "2020",
+        "description": "The IBSA Website is a website created for the Indonesian Bruin Association at UCLA in order to create an easy and efficient method for the club to communicate with it's 150+ members. was one of the first websites where I was able to take on the Front-end development role. It was a project in which I worked with a team and had to fulfill the request of the customer and deliver a satisfactory project. Through this project, I got to not only further my reactJS skills but was also able to learn about the development process and how to deliver a product to a customer.",
+        "type": "web",
+        "images": [
+          "ibsaLogo.png"
+        ],
+        "videos":["IBSAWeb.mp4"],
+        "url": "https://www.bruinsibsa.com/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "Discoveroo",
+        "startDate": "2019",
+        "description": " In order to learn about front-end development, I decided to buid a website from scratch. With the basics of reactJS and bootstrap, I was able to build Discoveroo a platform to find tutors, babysitters, cleaners, and other household help. Through this project I was also able to gain exposure to design. The idea initially begin as an app, and my first step was to create a figma prototype of the app which I then used to base the website off of. When I eventually switched to developing a website. I used adobe photoshop and aftereffects to create the designs on the login page and the logo.",
+        "type": "web",
+        "images": [
+          "Discoveroo/DiscoverooLogo.png","Discoveroo/DiscoverooSignInPage.png", "Discoveroo/DiscoverooProfile.png", "Discoveroo/DiscoverooDiscoverPage.png"
+        ],
+        "videos":["Discoveroo.mp4"],
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-photoshop-plain",
+            "name": "Photoshop"
+          }
+        ]
+      },
+      {
+        "title": "???",
+        "startDate": "???",
+        "images": ["placeholder.png"]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Hinge",
+        "title": "Product Mangement Intern",
+        "years": "06.2022 - 08.2022",
+        "icon": "devicon-trello-plain",
+        "mainTech": [
+          "Product Management"
+        ],
+        "technologies": [
+          "Shortcut",
+          "Looker",
+          "Agile",
+          "UX Research",
+          "Feature Prioritization",
+          "Cross Functional Collaboration"
+        ]
+      },
+      {
+        "company": "Tokopedia",
+        "title": "Software Engineer Intern",
+        "years": "07.2021 - 02.2022",
+        "icon": "devicon-react-plain",
+        "mainTech": [
+          "Frontend Development"
+        ],
+        "technologies": [
+          "ReactJS",
+          "NodeJS",
+          "JavaScript",
+          "HTML5",
+          "CSS3",
+          "Typescript"
+        ]
+      },
+      {
+        "company": "UCLA",
+        "title": "Bachelor's Degree",
+        "years": "2019 - 2023",
+        "icon": "fa fa-graduation-cap",
+        "mainTech": [
+          "Education"
+        ],
+        "technologies": [
+          "Computer Science B.S.",
+          "Business Economics B.A."
+        ]
+      }
+    ],
+    "more": [   
+      {
+        "title": "CodeHERs",
+        "description": "Passionate about bridging the gender gap in tech, I founded CodeHERs—a small effort with big dreams—to provide a supportive and empowering space for girls to explore the world of tech. Together, we're stitching up the gender gap, thread by thread.",
+        "image": "codeHERs.png",
+        "link": "community"
+      }, 
+      {
+        "title": "Baturetno",
+        "description": "Through engagement with the local community of Baturetno, Indonesia, I actively participated in initiatives that provided tangible support, offering me firsthand insight into the challenges faced by underdeveloped communities. This awareness of global disparities has always fueled my dedication to fostering positive change.",
+        "image": "baturetno.jpg",
+        "link": "community"
+      },
+      {
+        "title": "Proud Bruin",
+        "description": "Double majored in Computer Science and Business Economics at UCLA. From coding to crunching numbers, I got the best of both worlds under the sunny skies of LA. Go Bruins!",
+        "image": "grad-horizontal.jpg",
+        "link": "community"
+      },
+      
+      {
+        "title": "Outdoor Addict",
+        "description": "When I'm not behind a screen, you'll most likely find me out and about, soaking in the great outdoors. In my opinion, there's no better way to hit the reset button than by walking up and down a really big hill :)",
+        "image": "hike.JPG",
+        "link": "community"
+      },
+      {
+        "title": "IBSA",
+        "description": "I managed allocation of finances and came up with cost effective solutions as Finance Officer for UCLA's Indonesian Bruin Student Association (IBSA) in order to plan events to help build and cultivate UCLA's Indonesian community of over 150 students.",
+        "image": "IBSA.png",
+        "link": "community"
+      }
+    ]
+  }
