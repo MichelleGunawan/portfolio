@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.18c6c15c.chunk.css",
-    "main.js": "/portfolio/static/js/main.af11f2cc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.af11f2cc.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9b7da67d.chunk.css",
+    "main.js": "/portfolio/static/js/main.fd5c58bd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fd5c58bd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.1eb91598.chunk.css": "/portfolio/static/css/2.1eb91598.chunk.css",
-    "static/js/2.ed8ccfa8.chunk.js": "/portfolio/static/js/2.ed8ccfa8.chunk.js",
-    "static/js/2.ed8ccfa8.chunk.js.map": "/portfolio/static/js/2.ed8ccfa8.chunk.js.map",
+    "static/js/2.51a73e0c.chunk.js": "/portfolio/static/js/2.51a73e0c.chunk.js",
+    "static/js/2.51a73e0c.chunk.js.map": "/portfolio/static/js/2.51a73e0c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.53a45195c77c02f7d604453b047e7a92.js": "/portfolio/precache-manifest.53a45195c77c02f7d604453b047e7a92.js",
+    "precache-manifest.968583836dca71efb984aa27b511feed.js": "/portfolio/precache-manifest.968583836dca71efb984aa27b511feed.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.1eb91598.chunk.css.map": "/portfolio/static/css/2.1eb91598.chunk.css.map",
-    "static/css/main.18c6c15c.chunk.css.map": "/portfolio/static/css/main.18c6c15c.chunk.css.map",
-    "static/js/2.ed8ccfa8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ed8ccfa8.chunk.js.LICENSE.txt",
+    "static/css/main.9b7da67d.chunk.css.map": "/portfolio/static/css/main.9b7da67d.chunk.css.map",
+    "static/js/2.51a73e0c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.51a73e0c.chunk.js.LICENSE.txt",
     "static/media/Baturetno.png": "/portfolio/static/media/Baturetno.38926eec.png",
     "static/media/Discoveroo.mp4": "/portfolio/static/media/Discoveroo.66342304.mp4",
     "static/media/DiscoverooDiscoverPage.png": "/portfolio/static/media/DiscoverooDiscoverPage.fcb671d5.png",
@@ -37,6 +37,7 @@
     "static/media/Reco2.png": "/portfolio/static/media/Reco2.78c75030.png",
     "static/media/Reco3.png": "/portfolio/static/media/Reco3.7230b614.png",
     "static/media/Reco4.png": "/portfolio/static/media/Reco4.cabfaed0.png",
+    "static/media/RecoAbout.jpg": "/portfolio/static/media/RecoAbout.7053851c.jpg",
     "static/media/RecoLogo.png": "/portfolio/static/media/RecoLogo.9e65ae4c.png",
     "static/media/baturetno.jpg": "/portfolio/static/media/baturetno.28da1985.jpg",
     "static/media/codeHERs.png": "/portfolio/static/media/codeHERs.2482e7b4.png",
@@ -53,8 +54,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.1eb91598.chunk.css",
-    "static/js/2.ed8ccfa8.chunk.js",
-    "static/css/main.18c6c15c.chunk.css",
-    "static/js/main.af11f2cc.chunk.js"
+    "static/js/2.51a73e0c.chunk.js",
+    "static/css/main.9b7da67d.chunk.css",
+    "static/js/main.fd5c58bd.chunk.js"
   ]
 }
