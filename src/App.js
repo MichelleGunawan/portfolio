@@ -7,7 +7,7 @@ import sharedData from './assets/portfolio_shared_data.json';
 import Footer from "./components/Footer";
 import Home from "./screens/Home";
 import AllProjects from "./screens/AllProjects";
-import Community from "./screens/More/Community";
+import ReCollect from "./screens/More/ReCollect";
 
 class App extends Component {
 
@@ -31,7 +31,7 @@ class App extends Component {
               resumeProjects={this.state.resumeData.projects}
               resumeBasicInfo={this.state.resumeData.basic_info}
             />} />
-            <Route path="/portfolio/community" element={<Community
+            <Route path="/portfolio/ReCollect" element={<ReCollect
               resumeProjects={this.state.resumeData.projects}
               resumeBasicInfo={this.state.resumeData.basic_info}
             />} />

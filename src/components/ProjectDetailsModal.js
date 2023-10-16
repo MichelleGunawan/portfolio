@@ -1,23 +1,42 @@
 import React, { Component } from "react";
-import { Modal } from "react-bootstrap";
+import { Modal, Button } from "react-bootstrap";
+import { useNavigate } from "react-router";
 import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 
-class ProjectDetailsModal extends Component {
-  render() {
-    var type;
-    if (this.props.data ) {
-      const technologies = this.props.data.technologies;
-      const images = this.props.data.images?.splice(1);
-      const videos = this.props.data.videos;
-      type = this.props.data.type;
-      var title = this.props.data.title;
-      var description = this.props.data.description;
-      var url = this.props.data.url;
-      if (this.props.data.technologies) {
-        var tech = technologies.map((icons, i) => {
+const ProjectDetailsModal=(props)=> {
+  const navigate = useNavigate();
+  const [content, setContent] = React.useState([]);
+  const [tech, setTech] = React.useState([])
+  const [type, setType] = React.useState("");
+  const [title, setTitle] = React.useState("");
+  const [description, setDescription] = React.useState("");
+
+  React.useEffect(() => {
+    if (props.data) {
+      setType(props.data.type);
+      setTitle(props.data.title);
+      setDescription(props.data.description);
+
+      const images = props.data.images?.splice(1);
+      const videos = props.data.videos;
+      let img = [], vid=[];
+      if (props.data.images) {
+          img = images.map((elem, i) => {
+            return <div key={i} data-src={require(`../assets/images/${elem}`)} />;
+          });
+        }
+        if (props.data.videos) {
+          vid = videos.map((elem, i) => {
+            return <div key={i} data-src={require(`../assets/videos/${elem}`)} />;
+          });
+        }
+      setContent([...img, ...vid]);
+
+      if (props.data.technologies) {
+        const techMap = props.data.technologies.map((icons, i) => {
           return (
             <li className="list-inline-item mx-3" key={i}>
               <span>
@@ -30,36 +49,27 @@ class ProjectDetailsModal extends Component {
                 </div>
               </span>
             </li>
-          );
+          );         
         });
-        var img,vid=[];
-        var content = [];
-        if (this.props.data.images) {
-          img = images.map((elem, i) => {
-            return <div key={i} data-src={require(`../assets/images/${elem}`)} />;
-          });
-        }
-        if (this.props.data.videos) {
-          vid = videos.map((elem, i) => {
-            return <div key={i} data-src={require(`../assets/videos/${elem}`)} />;
-          });
-        }
-        content = [...img, ...vid]
+       setTech(techMap);
         //console.log(content);
       }
     }
+  }, [props.data]);
+  
     return (
+      <section id="project-modal">
       <div>
-      {this.props.data?.title!=="???" &&
+      {props.data?.title!=="???" &&
       <Modal
-        {...this.props}
+        {...props}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
         className="modal-inside"
       >
         
-        <span onClick={this.props.onHide} className="modal-close">
+        <span onClick={props.onHide} className="modal-close">
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
@@ -101,9 +111,9 @@ class ProjectDetailsModal extends Component {
             {type==="mobile" && <div className="slider-mobile-bottom"/>}
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
+            <h3 style={{ marginTop: 20, padding: "5px 5px 0 5px" }}>
               {title}
-              {url ? (
+              {/* {url ? (
                 <a
                   href={url}
                   target="_blank"
@@ -115,18 +125,46 @@ class ProjectDetailsModal extends Component {
                     style={{ marginLeft: "10px" }}
                   ></i>
                 </a>
-              ) : null}
+              ) : null} */}
             </h3>
             <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
+            <div className="col-md-12 text-center">
+              {props.data.url &&
+              <a
+                  href={props.data.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-href"
+                >
+                  <Button style={buttonStyle}>Website</Button>
+                </a>                
+              } 
+              {props.data.more &&
+                <Button style={buttonStyle} onClick={()=>navigate(`/portfolio/${props.data.more}`)}>Learn More</Button>
+              }             
+            </div>
+           
           </div>
         </div>
       </Modal>}
       </div>
+      </section>
     );
   }
-}
 
 export default ProjectDetailsModal;
+
+const buttonStyle = {
+  backgroundColor: "#d1a298",
+  fontSize: "1.5rem",
+  borderWidth: 0,
+  borderRadius: 10,
+  margin: 10,
+  marginTop:0,
+  marginBottom: 20,
+  padding: 10,
+  width: "10rem",
+};

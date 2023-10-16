@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import "../App.scss"
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div id="navbar" style={{justifyContent:'flex-end', alignItems:'center', paddingRight: "20px", paddingTop: "20px", paddingBottom:"20px", boxShadow: '0px 4px 4px -2px rgba(0,0,0,0.2)',}} className={`navbar ${scrolling ? 'hidden' : ''}`}>
+    <div id="navbar" style={{justifyContent:'flex-end', alignItems:'center', paddingRight: "20px", paddingTop: "20px", paddingBottom:"20px", boxShadow: '0px 4px 4px -2px rgba(0,0,0,0.2)',}} className="navbar">
       <ul>
         <li>
             <h2 className="section-title" onClick={handleHomeClick}

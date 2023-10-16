@@ -35,7 +35,8 @@
           "class": "devicon-mongodb-plain",
           "name": "MongoDB"
         }
-      ]
+      ],
+      "more": "ReCollect"
     },
       {
         "title": "KARGO",
@@ -106,7 +107,6 @@
           "ibsaLogo.png"
         ],
         "videos":["IBSAWeb.mp4"],
-        "url": "https://www.bruinsibsa.com/",
         "technologies": [
           {
             "class": "devicon-react-plain",

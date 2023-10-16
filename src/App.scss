@@ -571,13 +571,11 @@ footer a:focus {
 }
 
 .navbar {
- 	position: fixed;
-	z-index: 1000; /* Make sure it's on top of other content */
  	width: 100%;   
-	height: auto;
+	height: 55;
  	top: 0;
-  	transition: transform 0.4s ease-in-out;
 	display: flex;  
+	background-color: white;
 }
 
 
@@ -603,4 +601,14 @@ footer a:focus {
 
 .navbar.hidden {
   transform: translateY(-100%);
+}
+
+#project-modal .buttons{
+	background: #d1a298;
+	font-size: 1.5rem;
+	border-width: 0px;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	width: 8rem;
 }

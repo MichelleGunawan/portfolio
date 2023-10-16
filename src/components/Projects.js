@@ -1,6 +1,5 @@
-import React, { Component, useState } from "react";
+import React, { Component, useEffect, useState } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 
@@ -14,18 +13,12 @@ function Projects(props) {
 
   const [deps, setDeps] = useState({});
   const [detailsModalShow, setDetailsModalShow] = useState(false);
+  const [sectionName, setSectionName] = useState("");
+  const [projects, setProjects] = useState([]);
 
-  const detailsModalShowFn = (data) => {
-    setDetailsModalShow(true);
-    setDeps(data);
-  };
-
-  const detailsModalClose = () => setDetailsModalShow(false);
-
-  let projects = [];
-  if (props.resumeProjects && props.resumeBasicInfo) {
-    var sectionName = props.resumeBasicInfo.section_name.projects;
-    projects = props.resumeProjects.slice(0, 3).map(function (project) {
+  useEffect(() => {
+    setSectionName(props.resumeBasicInfo.section_name.projects)
+    const proj = props.resumeProjects.slice(0, 3).map(function (project) {
       return (
         <div
           className="col-sm-12 col-md-6 col-lg-4"
@@ -53,8 +46,16 @@ function Projects(props) {
         </div>
       );
     });
-  }
 
+    setProjects(proj);
+  },[props.resumeProjects, props.resumeBasicInfo])
+
+  const detailsModalShowFn = (data) => {
+    setDetailsModalShow(true);
+    setDeps(data);
+  };
+
+  const detailsModalClose = () => setDetailsModalShow(false);
 
     return (
     <section id="portfolio">
