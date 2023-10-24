@@ -201,8 +201,8 @@ header h1 {
 .polaroid span {
 	background: #ffffff;
 	display: inline-block;
-	margin: 55px 75px 30px;
-	padding: 15px 15px 40px;
+	margin: 55px 30px 55px 55px;
+	padding: 15px 15px 50px;
 	text-align: center;
 	text-decoration: none;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -243,8 +243,6 @@ header h1 {
 
 .experience-icon {
 	font-size: 300%;
-	margin-top: 25%;
-	text-align: center;
 }
 
 .main-badge {
@@ -601,14 +599,4 @@ footer a:focus {
 
 .navbar.hidden {
   transform: translateY(-100%);
-}
-
-#project-modal .buttons{
-	background: #d1a298;
-	font-size: 1.5rem;
-	border-width: 0px;
-	border-radius: 10px;
-	margin: 10px;
-	padding: 10px;
-	width: 8rem;
 }

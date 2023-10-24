@@ -40,7 +40,7 @@ class Experience extends Component {
               alignItems: "center", // Center vertically
               justifyContent: "center", // Center horizontally
             }}
-            icon={<i className={work.icon} style={{fontSize: "2vw"}}></i>}
+            icon={<i className={`experience-icon ${work.icon}`} style={{fontSize: "2vw"}}></i>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -84,6 +84,9 @@ class Experience extends Component {
                 background: "#d1a298",
                 color: "#fff",
                 textAlign: "center",
+                display: "flex", // Center horizontally and vertically
+                alignItems: "center", // Center vertically
+                justifyContent: "center", // Center horizontally
               }}
               icon={
                 <i className="fas fa-hourglass-start mx-auto experience-icon"></i>

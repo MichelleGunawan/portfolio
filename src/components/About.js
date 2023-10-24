@@ -28,8 +28,8 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="350px"
-                    width="auto"
+                    height="auto"
+                    width="275px"
                     src={profile}
                     alt="Avatar placeholder"
                   />
