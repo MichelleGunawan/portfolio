@@ -84,15 +84,28 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     <div className="aboutButtons">
-                      <Button className="buttons" href="https://drive.google.com/file/d/1N5yD1cvpJPzr8H9kdIVGctLEAB7FLB44/view?usp=sharing">Resume</Button>
-                      <Button className="buttons" href="https://drive.google.com/file/d/1G-OuxSzTCIQSag-3Ls65PzwAz_0LHE-p/view?usp=sharing">CV</Button>
-                      <Button className="buttons" href="mailto:mfgunawan01@gmail.com">Contact</Button>
+                      <Button
+                        className="buttons"
+                        href="https://drive.google.com/file/d/10xoPXf33EPDA4sPvy1x_Mjq6NdgqUJiK/view?usp=sharing"
+                      >
+                        Resume
+                      </Button>
+                      <Button
+                        className="buttons"
+                        href="https://drive.google.com/file/d/1G-OuxSzTCIQSag-3Ls65PzwAz_0LHE-p/view?usp=sharing"
+                      >
+                        CV
+                      </Button>
+                      <Button
+                        className="buttons"
+                        href="mailto:mfgunawan01@gmail.com"
+                      >
+                        Contact
+                      </Button>
                     </div>
-
-                    
                   </div>
                 </div>
               </div>
