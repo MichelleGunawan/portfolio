@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.97b3f620.css",
-    "main.js": "/portfolio/static/js/main.c2c1761b.js",
+    "main.css": "/portfolio/static/css/main.5e7e53cf.css",
+    "main.js": "/portfolio/static/js/main.00f89e09.js",
     "static/js/787.512dd3f2.chunk.js": "/portfolio/static/js/787.512dd3f2.chunk.js",
-    "static/media/RecoAbout.jpg": "/portfolio/static/media/RecoAbout.5dfc427cbbf7fca08d27.jpg",
+    "static/media/RecoAbout.JPG": "/portfolio/static/media/RecoAbout.5dfc427cbbf7fca08d27.JPG",
     "static/media/ucla-logo.png": "/portfolio/static/media/ucla-logo.85235be865fbb3612e0f.png",
     "static/media/about.JPG": "/portfolio/static/media/about.a7b3a98b2a79e0344d60.JPG",
     "static/media/homepage.JPG": "/portfolio/static/media/homepage.61d6acb8687904ed35b9.JPG",
@@ -12,12 +12,12 @@
     "static/media/logo.JPG": "/portfolio/static/media/logo.23614a25b527d0decedb.JPG",
     "static/media/hinge-logo.png": "/portfolio/static/media/hinge-logo.e7bc2614a107bd32370e.png",
     "index.html": "/portfolio/index.html",
-    "main.97b3f620.css.map": "/portfolio/static/css/main.97b3f620.css.map",
-    "main.c2c1761b.js.map": "/portfolio/static/js/main.c2c1761b.js.map",
+    "main.5e7e53cf.css.map": "/portfolio/static/css/main.5e7e53cf.css.map",
+    "main.00f89e09.js.map": "/portfolio/static/js/main.00f89e09.js.map",
     "787.512dd3f2.chunk.js.map": "/portfolio/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97b3f620.css",
-    "static/js/main.c2c1761b.js"
+    "static/css/main.5e7e53cf.css",
+    "static/js/main.00f89e09.js"
   ]
 }
