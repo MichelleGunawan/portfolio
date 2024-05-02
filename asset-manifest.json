@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0fdd1ef9.css",
+    "main.css": "/portfolio/static/css/main.6433041a.css",
     "main.js": "/portfolio/static/js/main.f357bfa1.js",
     "static/js/787.512dd3f2.chunk.js": "/portfolio/static/js/787.512dd3f2.chunk.js",
     "static/media/RecoAbout.JPG": "/portfolio/static/media/RecoAbout.5dfc427cbbf7fca08d27.JPG",
@@ -12,12 +12,12 @@
     "static/media/logo.JPG": "/portfolio/static/media/logo.23614a25b527d0decedb.JPG",
     "static/media/hinge-logo.png": "/portfolio/static/media/hinge-logo.e7bc2614a107bd32370e.png",
     "index.html": "/portfolio/index.html",
-    "main.0fdd1ef9.css.map": "/portfolio/static/css/main.0fdd1ef9.css.map",
+    "main.6433041a.css.map": "/portfolio/static/css/main.6433041a.css.map",
     "main.f357bfa1.js.map": "/portfolio/static/js/main.f357bfa1.js.map",
     "787.512dd3f2.chunk.js.map": "/portfolio/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fdd1ef9.css",
+    "static/css/main.6433041a.css",
     "static/js/main.f357bfa1.js"
   ]
 }
