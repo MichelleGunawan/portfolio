@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ccdce696.css",
-    "main.js": "/portfolio/static/js/main.994ea0a1.js",
+    "main.js": "/portfolio/static/js/main.2c98b95c.js",
     "static/js/787.512dd3f2.chunk.js": "/portfolio/static/js/787.512dd3f2.chunk.js",
     "static/media/RecoAbout.JPG": "/portfolio/static/media/RecoAbout.5dfc427cbbf7fca08d27.JPG",
-    "static/media/reco.png": "/portfolio/static/media/reco.8fedbdd72be7361e1c70.png",
+    "static/media/reco.png": "/portfolio/static/media/reco.9a0a73bc4a5695a8b86a.png",
     "static/media/kargo.png": "/portfolio/static/media/kargo.0fdb97b7bfaba74b443f.png",
+    "static/media/portfoliov2.png": "/portfolio/static/media/portfoliov2.c2c54d93f1d3aedb2c7d.png",
     "static/media/ucla-logo.png": "/portfolio/static/media/ucla-logo.85235be865fbb3612e0f.png",
+    "static/media/portfoliov1.png": "/portfolio/static/media/portfoliov1.84bb1444725707de4df7.png",
     "static/media/about.JPG": "/portfolio/static/media/about.a7b3a98b2a79e0344d60.JPG",
     "static/media/homepage.JPG": "/portfolio/static/media/homepage.61d6acb8687904ed35b9.JPG",
     "static/media/tokopedia-logo.png": "/portfolio/static/media/tokopedia-logo.a1750fd920ddc5f2b5f9.png",
@@ -15,11 +17,11 @@
     "static/media/hinge-logo.png": "/portfolio/static/media/hinge-logo.e7bc2614a107bd32370e.png",
     "index.html": "/portfolio/index.html",
     "main.ccdce696.css.map": "/portfolio/static/css/main.ccdce696.css.map",
-    "main.994ea0a1.js.map": "/portfolio/static/js/main.994ea0a1.js.map",
+    "main.2c98b95c.js.map": "/portfolio/static/js/main.2c98b95c.js.map",
     "787.512dd3f2.chunk.js.map": "/portfolio/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccdce696.css",
-    "static/js/main.994ea0a1.js"
+    "static/js/main.2c98b95c.js"
   ]
 }
