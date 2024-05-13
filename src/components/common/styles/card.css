@@ -1,12 +1,17 @@
 @import "../../../data/styles.css";
 
 .card {
+	display: flex;
+	width: 100%;
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	outline: 2px solid #f4f4f5;
 }
 
 .card-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 	padding: 30px;
 	padding-bottom: 5px;
 }
@@ -29,6 +34,14 @@
 }
 
 .card-body {
+	display: flex;
+	width: 100%;
 	padding-top: 40px;
 	font-size: 15px;
+}
+
+.card-text {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
