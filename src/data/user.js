@@ -1,82 +1,91 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Michelle Gunawan Portfolio",
+		name: "Michelle Gunawan",
+		resume: "https://drive.google.com/file/d/1Xz0Lt-qWpZTZBwgyQJ9UHvTFFY0kfWki/view?usp=sharing",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/MichelleGunawan",
+		linkedin: "https://www.linkedin.com/in/michelle-gunawan/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Product manager, developer, and avo toast aficionado.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Hi, I'm Michelle. A tech enthusiast with a passion for problem-solving and people, I thrive at the intersection of code and connections. Whether I'm on the technical or non-technical side of things, I love building for humans. If you're interested in learning more about me, feel free to explore the rest of my portfolio. For a quick overview, you can also check out my resume below. If you have any questions or would like to get in touch, please don't hesitate to contact me – I'd love to connect!",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "Hi I’m Michelle.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"My passion for technology started early, sparked by watching how new innovations were reshaping our world and culture. Throughout my career, I’ve been driven by the tangible impact of the products I work on. Outside of work, I enjoy spending time outdoors, reading about the latest trends in tech, or tinkering with personal projects to keep my technical skills sharp. I believe in continuous learning and am always looking for new ways to grow as a product manager and developer.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Learning everything about anything.",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Welcome to my collection of articles where I share the insights I've gained through my experiences. Dive into a collection of insightful reads where I share my thoughts, experiences, and expertise on programming, product, and more!",
 	},
-
-	projects: [
+	languages: [
 		{
-			title: "Project 1",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			name: "Javascript",
+			icon: "devicon-javascript-plain",
 		},
 
 		{
-			title: "Project 2",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			name: "Typescript",
+			icon: "devicon-typescript-plain",
 		},
-
 		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			name: "HTML",
+			icon: "devicon-html5-plain",
 		},
-
 		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			name: "CSS",
+			icon: "devicon-css3-plain",
 		},
-
 		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			name: "C++",
+			icon: "devicon-cplusplus-plain",
+		},
+		{
+			name: "SQL",
+			icon: "devicon-azuresqldatabase-plain",
+		},
+	],
+	skills: [
+		{
+			name: "Jira",
+			icon: "devicon-jira-plain",
+		},
+		{
+			name: "Confluence",
+			icon: "devicon-confluence-plain",
+		},
+		{
+			name: "React",
+			icon: "devicon-react-plain",
+		},
+		{
+			name: "Next.js",
+			icon: "devicon-nextjs-plain",
+		},
+		{
+			name: "Node.js",
+			icon: "devicon-nodejs-plain",
+		},
+		{
+			name: "Figma",
+			icon: "devicon-figma-plain",
+		},
+		{
+			name: "PostgreSQL",
+			icon: "devicon-postgresql-plain",
 		},
 	],
 };

@@ -6,6 +6,7 @@
 
 .article a {
 	text-decoration: none;
+	width: 100%;
 }
 
 .article-left-side {
@@ -16,6 +17,7 @@
 .article-right-side {
 	flex-basis: 80%;
 	min-width: 700px;
+	width: 100%;
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
@@ -30,6 +32,7 @@
 
 .article-date {
 	padding-top: 30px;
+	padding-right: 10px;
 	font-size: 15px;
 	color: var(--tertiary-color);
 }
@@ -64,6 +67,6 @@
 	.article-right-side {
 		flex-basis: 90%;
 		min-width: 85%;
-		max-width: 85%;
+		max-width: 100%;
 	}
 }

@@ -1,0 +1,26 @@
+.project-detail-body {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	justify-content: center;
+}
+
+.project-detail-image {
+	width: 100%;
+	height: auto; /* Maintain image's aspect ratio */
+	margin-bottom: 30px;
+	border-radius: 15px;
+}
+.project-description {
+	margin-bottom: 10px;
+}
+
+.project-subheader {
+	color: var(--primary-color);
+	font-family: var(--secondary-font);
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}

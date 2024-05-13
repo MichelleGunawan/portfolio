@@ -22,6 +22,26 @@
 	padding-top: 120px;
 }
 
+.tab-active {
+	color: #14b8a6;
+	font-size: 16px;
+	line-height: 28px;
+	border-radius: "20px";
+}
+.tab {
+	color: inherit;
+	color: var(--secondary-color);
+	font-size: 16px;
+	line-height: 28px;
+	border-radius: "20px";
+}
+
+.tabs {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
 @media (max-width: 600px) {
 	.projects-container {
 		padding-top: 60px;

@@ -1,7 +1,7 @@
 @import "../../../data/styles.css";
 
 .homepage-article {
-	width: 90%;
+	width: 100%;
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;

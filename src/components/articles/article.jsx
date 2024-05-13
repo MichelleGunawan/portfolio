@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
 import "./style/article.css";
 
@@ -10,7 +11,19 @@ const Article = (props) => {
 
 	return (
 		<React.Fragment>
-			<div className="article">
+			<motion.div
+				className="article"
+				initial={{ opacity: 0, y: 75 }} // Initial hidden state below
+				whileInView={{
+					opacity: 1,
+					y: 0,
+					transition: {
+						duration: 0.5, // duration of the animation in seconds
+						delay: 0.1, // delay before the animation starts in seconds
+						ease: "easeOut", // easing function for the animation
+					},
+				}}
+			>
 				<div className="article-left-side">
 					<div className="article-date">{date}</div>
 				</div>
@@ -28,7 +41,7 @@ const Article = (props) => {
 						</div>
 					</div>
 				</Link>
-			</div>
+			</motion.div>
 		</React.Fragment>
 	);
 };
