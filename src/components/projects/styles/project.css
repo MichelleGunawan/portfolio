@@ -27,7 +27,7 @@
 }
 
 .project-logo {
-	width: 30px;
+	width: 100%;
 }
 
 .project-logo img {
@@ -39,7 +39,7 @@
 	color: var(--primary-color);
 	font-size: 16px;
 	padding-top: 15px;
-	margin-bottom: 1em;
+	margin-bottom: 10px;
 	font-weight: 700;
 }
 
@@ -67,6 +67,6 @@
 
 @media (max-width: 600px) {
 	.project {
-		height: 300px;
+		height: 100%;
 	}
 }

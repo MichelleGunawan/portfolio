@@ -6,27 +6,36 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import "./styles/project.css";
 
 const Project = (props) => {
-	const { logo, title, description, linkText, link } = props;
+	const { img, title, description, links, date, skills, route, index } =
+		props;
 
 	return (
 		<React.Fragment>
 			<div className="project">
-				<Link to={link}>
-					<div className="project-container">
+				<div className="project-container">
+					<Link to={"/project/" + route}>
 						<div className="project-logo">
-							<img src={logo} alt="logo" />
+							{img}
+							{/* <img src={logo} alt="logo" /> */}
 						</div>
 						<div className="project-title">{title}</div>
-						<div className="project-description">{description}</div>
-						<div className="project-link">
-							<div className="project-link-icon">
-								<FontAwesomeIcon icon={faLink} />
-							</div>
-
-							<div className="project-link-text">{linkText}</div>
-						</div>
+					</Link>
+					<div className="link-section">
+						{links?.map((link) => (
+							<a href={link.link} className="link-tag">
+								<div className="link-icon">
+									<FontAwesomeIcon icon={faLink} />
+								</div>
+								{link.title}
+							</a>
+						))}
 					</div>
-				</Link>
+					<div className="skills-section">
+						{skills?.map((skill) => (
+							<div className="skill-tag">{skill}</div>
+						))}
+					</div>
+				</div>
 			</div>
 		</React.Fragment>
 	);

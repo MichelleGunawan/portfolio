@@ -44,6 +44,9 @@
 }
 
 .content-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 	max-width: 1000px;
 	margin: 0 auto;
 }
@@ -62,11 +65,14 @@
 	font-size: 16px;
 	line-height: 28px;
 	width: 70%;
-	margin-top: 25px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .page-footer {
+	margin-top: 20px;
 	position: block;
+	bottom: 0;
 }
 
 .page-footer::before {
@@ -74,7 +80,69 @@
 	position: absolute;
 	left: 0;
 	right: 0;
-	border-top: 2px solid var(--tertiary-color);
+	border-top: 1px solid var(--tertiary-color);
+}
+
+.link-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-size: 12px;
+	color: var(--secondary-color);
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+
+.link-icon {
+	margin-right: 8px;
+}
+
+.link-tag {
+	display: flex;
+	flex-direction: row;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #e1e1e1;
+	color: var(--secondary-color);
+	font-size: 12px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-right: 8px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.link-tag:hover {
+	background-color: #e1e1e1;
+}
+
+.skills-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-size: 12px;
+	color: var(--secondary-color);
+	flex-wrap: wrap;
+}
+
+.skill-tag {
+	display: flex;
+	flex-direction: row;
+	background-color: #e4e4e4;
+	color: var(--secondary-color);
+	font-size: 12px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-right: 8px;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+.skill-tag:hover {
+	background-color: #e1e1e1;
 }
 
 @media (max-width: 1270px) {
@@ -84,6 +152,9 @@
 	}
 
 	.content-wrapper {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
 		max-width: 90%;
 		padding-left: 10%;
 		padding-right: 10%;
@@ -97,12 +168,18 @@
 	}
 
 	.content-wrapper {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
 		max-width: 980px;
 	}
 }
 
 @media (max-width: 800px) {
 	.content-wrapper {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
 		max-width: 90%;
 		margin: 0 auto;
 		padding: 0 10px;
