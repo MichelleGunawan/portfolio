@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9e47d920.css",
-    "main.js": "/portfolio/static/js/main.2c9f7679.js",
+    "main.css": "/portfolio/static/css/main.73cb8379.css",
+    "main.js": "/portfolio/static/js/main.d0ab4058.js",
     "static/js/787.512dd3f2.chunk.js": "/portfolio/static/js/787.512dd3f2.chunk.js",
     "static/media/RecoAbout.JPG": "/portfolio/static/media/RecoAbout.5dfc427cbbf7fca08d27.JPG",
     "static/media/reco.png": "/portfolio/static/media/reco.9a0a73bc4a5695a8b86a.png",
@@ -16,12 +16,12 @@
     "static/media/logo.JPG": "/portfolio/static/media/logo.23614a25b527d0decedb.JPG",
     "static/media/hinge-logo.png": "/portfolio/static/media/hinge-logo.e7bc2614a107bd32370e.png",
     "index.html": "/portfolio/index.html",
-    "main.9e47d920.css.map": "/portfolio/static/css/main.9e47d920.css.map",
-    "main.2c9f7679.js.map": "/portfolio/static/js/main.2c9f7679.js.map",
+    "main.73cb8379.css.map": "/portfolio/static/css/main.73cb8379.css.map",
+    "main.d0ab4058.js.map": "/portfolio/static/js/main.d0ab4058.js.map",
     "787.512dd3f2.chunk.js.map": "/portfolio/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e47d920.css",
-    "static/js/main.2c9f7679.js"
+    "static/css/main.73cb8379.css",
+    "static/js/main.d0ab4058.js"
   ]
 }
