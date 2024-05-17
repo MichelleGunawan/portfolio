@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.73cb8379.css",
-    "main.js": "/portfolio/static/js/main.dc9b50d7.js",
+    "main.css": "/portfolio/static/css/main.ccc589fc.css",
+    "main.js": "/portfolio/static/js/main.8fa48d21.js",
     "static/js/787.512dd3f2.chunk.js": "/portfolio/static/js/787.512dd3f2.chunk.js",
     "static/media/RecoAbout.JPG": "/portfolio/static/media/RecoAbout.5dfc427cbbf7fca08d27.JPG",
     "static/media/reco.png": "/portfolio/static/media/reco.9a0a73bc4a5695a8b86a.png",
@@ -11,17 +11,18 @@
     "static/media/portfoliov1.png": "/portfolio/static/media/portfoliov1.9aa8bd4da57e8ed06603.png",
     "static/media/about.JPG": "/portfolio/static/media/about.a7b3a98b2a79e0344d60.JPG",
     "static/media/homepage.JPG": "/portfolio/static/media/homepage.61d6acb8687904ed35b9.JPG",
+    "static/media/pm_cover.jpg": "/portfolio/static/media/pm_cover.11e3e589966002149c04.jpg",
     "static/media/tokopedia-logo.png": "/portfolio/static/media/tokopedia-logo.a1750fd920ddc5f2b5f9.png",
     "static/media/code-logo.png": "/portfolio/static/media/code-logo.279134a0edab25288b9e.png",
     "static/media/logo.JPG": "/portfolio/static/media/logo.23614a25b527d0decedb.JPG",
     "static/media/hinge-logo.png": "/portfolio/static/media/hinge-logo.e7bc2614a107bd32370e.png",
     "index.html": "/portfolio/index.html",
-    "main.73cb8379.css.map": "/portfolio/static/css/main.73cb8379.css.map",
-    "main.dc9b50d7.js.map": "/portfolio/static/js/main.dc9b50d7.js.map",
+    "main.ccc589fc.css.map": "/portfolio/static/css/main.ccc589fc.css.map",
+    "main.8fa48d21.js.map": "/portfolio/static/js/main.8fa48d21.js.map",
     "787.512dd3f2.chunk.js.map": "/portfolio/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73cb8379.css",
-    "static/js/main.dc9b50d7.js"
+    "static/css/main.ccc589fc.css",
+    "static/js/main.8fa48d21.js"
   ]
 }
